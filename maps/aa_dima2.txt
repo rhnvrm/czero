@@ -1,0 +1,17 @@
+================================
+aa_dima2
+
+A a modified version of original map "aa_dima" with minor changes.
+
+Changes include...
+1. Water Bug fixed
+2. CT-Tower added without disturbing original wall
+3. A breakable wall is added at the bottom of T-Tower
+4. CT Spawn Points fixed
+5. Spawn angles are changed
+6. T-Base wall corners rounded enhanced view
+
+------------By ManDarK
+
+(Press FIRE to continue)
+================================
