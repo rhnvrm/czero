@@ -1,1 +1,1 @@
- docker build -t zgodoc:latest .
+ docker build -t czero:latest .
