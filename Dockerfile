@@ -52,4 +52,5 @@ COPY maps/* czero/maps/
 
 # Copy configs
 COPY config/server.cfg czero/server.cfg
+COPY config/mapcycle.txt czero/mapcycle.txt
 # COPY pug/configs/pug/* czero/addons/amxmodx/configs/
