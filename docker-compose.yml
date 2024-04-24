@@ -1,0 +1,19 @@
+version: '2.2'
+services:
+        czero:
+                image: goldsourceservers/czero:latest
+                ports: 
+                        - 27015:27015/tcp
+                        - 27015:27015/udp
+                stdin_open: true
+                tty: true
+                entrypoint:
+                        - /bin/bash
+                entrypoint: hlds_linux
+                command: -game czero +port 27015 +maxplayers 32 +map aa_dima2 
+                volumes:
+                        - ./maps/aa_dima2.bsp:/server/czero/maps/aa_dima2.bsp
+                        - ./maps/aa_dima2.res:/server/czero/maps/aa_dima2.res
+                        - ./maps/aa_dima2.txt:/server/czero/maps/aa_dima2.txt
+                        - ./config/server.cfg:/server/czero/server.cfg
+                        - ./config/mapcycle.txt:/server/czero/mapcycle.txt
